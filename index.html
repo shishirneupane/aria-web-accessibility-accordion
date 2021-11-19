@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Web Accessibility for Accordion</h1>
+
+      <ul>
+        <li>
+          <button
+            aria-expanded="false"
+            aria-controls="sect1"
+            id="btn1"
+            class="accordion"
+          >
+            UI Design
+          </button>
+          <p id="sect1" role="region" aria-labelledby="btn1" class="accordion-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+            architecto, facere rerum harum nobis recusandae cupiditate error
+            accusantium nihil molestias. Placeat quo dolorem iste vitae dolores
+            assumenda qui error commodi.
+          </p>
+        </li>
+        <li>
+          <button
+            aria-expanded="false"
+            aria-controls="sect2"
+            id="btn2"
+            class="accordion"
+          >
+            UI Design
+          </button>
+          <p id="sect2" role="region" aria-labelledby="btn2" class="accordion-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+            architecto, facere rerum harum nobis recusandae cupiditate error
+            accusantium nihil molestias. Placeat quo dolorem iste vitae dolores
+            assumenda qui error commodi.
+          </p>
+        </li>
+        <li>
+          <button
+            aria-expanded="false"
+            aria-controls="sect3"
+            id="btn3"
+            class="accordion"
+          >
+            UI Design
+          </button>
+          <p id="sect3" role="region" aria-labelledby="btn3" class="accordion-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+            architecto, facere rerum harum nobis recusandae cupiditate error
+            accusantium nihil molestias. Placeat quo dolorem iste vitae dolores
+            assumenda qui error commodi.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
