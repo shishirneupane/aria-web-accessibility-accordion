@@ -9,19 +9,20 @@
   </head>
   <body>
     <div class="container">
-      <h1>Web Accessibility for Accordion</h1>
+      <h1 tabindex="1">Web Accessibility for Accordion</h1>
 
       <ul>
         <li>
           <button
             aria-expanded="false"
             aria-controls="sect1"
+            tabindex="2"
             id="btn1"
             class="accordion"
           >
-            UI Design
+            Facebook
           </button>
-          <p id="sect1" role="region" aria-labelledby="btn1" class="accordion-content">
+          <p id="sect1" role="region" aria-labelledby="btn1" tabindex="3" class="accordion-content">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
             architecto, facere rerum harum nobis recusandae cupiditate error
             accusantium nihil molestias. Placeat quo dolorem iste vitae dolores
@@ -32,12 +33,13 @@
           <button
             aria-expanded="false"
             aria-controls="sect2"
+            tabindex="4"
             id="btn2"
             class="accordion"
           >
-            UI Design
+            Instagram
           </button>
-          <p id="sect2" role="region" aria-labelledby="btn2" class="accordion-content">
+          <p id="sect2" role="region" aria-labelledby="btn2" tabindex="5" class="accordion-content">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
             architecto, facere rerum harum nobis recusandae cupiditate error
             accusantium nihil molestias. Placeat quo dolorem iste vitae dolores
@@ -48,12 +50,13 @@
           <button
             aria-expanded="false"
             aria-controls="sect3"
+            tabindex="6"
             id="btn3"
             class="accordion"
           >
-            UI Design
+            YouTube
           </button>
-          <p id="sect3" role="region" aria-labelledby="btn3" class="accordion-content">
+          <p id="sect3" role="region" aria-labelledby="btn3" tabindex="7" class="accordion-content">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
             architecto, facere rerum harum nobis recusandae cupiditate error
             accusantium nihil molestias. Placeat quo dolorem iste vitae dolores

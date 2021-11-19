@@ -1,15 +1,14 @@
 var acc = document.getElementsByClassName("accordion");
-var i;
 
-for(i = 0; i < acc.length; i++) {
+for(var i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
-    var panel = this.nextElementSibling;
+    var para = this.nextElementSibling;
 
-    if(panel.style.display === "block") {
-      panel.style.display = "none";
+    if(para.style.display === "block") {
+      para.style.display = "none";
       this.setAttribute("aria-expanded", "false");
     } else {
-      panel.style.display = "block";
+      para.style.display = "block";
       this.setAttribute("aria-expanded", "true");
     }
   })
